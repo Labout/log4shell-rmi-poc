@@ -54,4 +54,5 @@ As you can see the the vulnerable app calls the Calculator app.
 
 ## References 
 https://www.cisecurity.org/log4j-zero-day-vulnerability-response/
+<br>
 https://www.lunasec.io/docs/blog/log4j-zero-day/
